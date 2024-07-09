@@ -1,0 +1,7 @@
+- # Word2vec
+	- Word2vec è un insieme di metodi che sono utilizzati per produrre *word embedding*. L'architettura generale si basa su una NN #[[Deep Neural Network]] che prende in ingresso un *corpus* e restituisce un insieme di vettori (*embeddings*). Quindi per ogni parola nel corpus viene costruito un vettore in uno spazio multidimensionale, dove le parole saranno più vicine se più simili.
+	- In Word2vec, invece di contare quante volte una parola compare vicino ad altre parole, si addestra un classificatore in un task di classificazione. Il task consiste nel determinare se è probabile che la parola compaia vicino ad un'altra parola. Il risultato della predizione non è importante, ma i pesi appresi dal classificatore vengono utilizzati come word embeddings.
+	- Word2vec può produrre word embedding utilizzando uno tra i seguenti due modelli di architettura:
+		- **CBOW**: predire il *token corrente* (output) a partire da una finestra di *parole di contesto* (input);
+		- **Skip-Gram**: predire le *parole di contesto* (output) a partire dal *token corrente* (input);
+	- Entrambi i modelli sono implementati da una NN. A seconda dell'architettura il token corrente e la finestra di contesto saranno l'input o l'output del modello. La *funzione softmax* viene applicata nell'ultimo layer della rete.

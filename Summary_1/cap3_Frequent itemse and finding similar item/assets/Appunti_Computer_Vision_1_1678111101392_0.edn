@@ -1,0 +1,22 @@
+{:highlights
+ [{:id #uuid "6405f1d6-7574-4167-a4e4-ad3737ebaa91",
+   :page 9,
+   :position
+   {:bounding
+    {:x1 320.4801940917969,
+     :y1 181.1041717529297,
+     :x2 396.7106628417969,
+     :y2 193.1041717529297,
+     :width 659,
+     :height 852.8235294117646},
+    :rects
+    ({:x1 320.4801940917969,
+      :y1 181.1041717529297,
+      :x2 396.7106628417969,
+      :y2 193.1041717529297,
+      :width 659,
+      :height 852.8235294117646}),
+    :page 9},
+   :content {:text "rete represent"},
+   :properties {:color "yellow"}}], 
+ :extra {:page 9}}

@@ -1,0 +1,50 @@
+- # Big Data Analysis #BDA
+	- ## Data analysis pipeline
+		- **Raccolta dei dati:**
+			- I dati sono prodotti da sensori, simulazioni o esperimenti e registrano un'attività sottostante di interesse.
+			- I dati possono essere troppo voluminosi per essere elaborati così come sono e richiedono filtri "on-line" per ridurre la quantità di dati senza perdere informazioni utili.
+		- **Estrazione e pulizia delle informazioni:**
+			- I dati raccolti spesso non sono pronti per l'analisi e devono essere estratti e strutturati correttamente.
+			- Le fonti di dati sono spesso inaffidabili e richiedono tecniche di pulizia dei dati.
+		- **Data conditioning:**
+			- Manipolazione dei dati per renderli utilizzabili.
+			- Può richiedere l'uso di diverse tecnologie, come l'elaborazione del linguaggio naturale, la pulizia di HTML e l'uso di librerie di machine learning.
+		- **Integrazione, aggregazione e rappresentazione:**
+			- L'analisi su larga scala richiede spesso la raccolta di dati eterogenei da diverse fonti.
+			- Gli strumenti di integrazione e trasformazione dei dati sono necessari per risolvere le eterogeneità nella struttura e nella semantica dei dati.
+			- L'integrazione completa può essere costosa.
+		- **Modellazione e analisi:**
+			- L'analisi dei grandi volumi di dati richiede spesso metodi diversi rispetto all'analisi statistica tradizionale su campioni più piccoli.
+			- I dati possono essere rumorosi, dinamici, eterogenei, correlati e non affidabili, e quindi richiedono diverse tecniche di analisi.
+		- **Interpretazione:**
+			- I risultati devono essere interpretati dai decision-maker.
+			- È importante tenere conto degli errori potenziali e delle assunzioni fatte durante l'analisi.
+			- Un sistema deve fornire agli utenti la capacità di interpretare i risultati analitici e ripetere l'analisi con diverse assunzioni, parametri o dataset per supportare il processo decisionale.
+			- Tuttavia, le opinioni possono essere in conflitto o poveramente supportate dai dati.
+	- ## Challenges
+		- **Sfide correlate ai dati:**
+			- *Qualità dei dati*: i dati possono presentare problemi di qualità dovuti a errori nella raccolta e nel campionamento dei dati;
+			- *Disponibilità dei dati*: la disponibilità dei dati può essere limitata, con dati mancanti o ritardi nella loro disponibilità. Trovare le fonti di dati corrette può essere difficile.
+			- *Preparazione dei dati*: la preparazione dei dati richiede l'integrazione di dati provenienti da diverse fonti e la comprensione del loro significato, che può essere complicato a causa di documentazione mancante o incoerente.
+		- **Sfide correlate all'analisi:**
+			- *Scalabilità*: A causa delle enormi dimensioni dei dati, l'elaborazione in batch può richiedere molto tempo, rallentando il processo di analisi. Inoltre, per risolvere problemi particolari, è necessario talvolta accedere a strumenti specifici e adeguati ma che soffrono di una disponibilità limitata.
+			- *Machine Learning*: ci sono diverse difficoltà nell'applicazione del machine learning. È complesso determinare quali caratteristiche dei dati siano più rilevanti e valutare quale modello offre le migliori prestazioni. Inoltre, definire chiaramente l'ambito dell'analisi può essere un'impresa complicata, poiché spesso manca una descrizione precisa del problema da risolvere.
+			- *Gestione delle aspettative*: I clienti possono avere aspettative irrealistiche sui risultati ottenibili dall'analisi dei dati. È necessario comunicare chiaramente la precisione delle previsioni e il tempo richiesto per sviluppare soluzioni complete.
+		- **Sfide correlate alle persone:**
+			- Le principali sfide legate alle persone nella scienza dei dati includono convincere gli altri membri del team del valore della scienza dei dati, ottenere dati di alta qualità, rimanere aggiornati con gli strumenti in evoluzione, comunicare in modo efficace le informazioni e le intuizioni risultanti ai leader e agli stakeholder.
+	- ## Metodi per controllare la qualità del lavoro
+		- **Cross Validation**:
+			- utilizzare più fonti di dati per triangolare i risultati e confrontare i risultati con diverse fonti di dati.
+			- Confrontare i risultati dell'analisi con dati storici o dati precedentemente pubblicati per verificare se i nuovi risultati rientrano nei limiti delle basi storiche.
+			- Far convalidare le analisi da altri membri del team o colleghi.
+		- **Verificare la distribuzione dei dati**:
+			- Esplorare e comprendere le distribuzioni sottostanti dei dati calcolando statistiche descrittive (es. istogrammi), misurando gli intervalli di confidenza, utilizzando strumenti di visualizzazione per verificare i dati.
+		- **Utilizzare simulazioni per verificare i risultati**:
+			- Creare nuovi dati attraverso la simulazione e verificare i risultati con una raccolta e un'analisi di dati simili.
+		- **Verificare il tipo e lo schema dei dati**:
+			- Verificare che il formato, il tipo e lo schema dei dati siano definiti correttamente.
+			- La verifica del tipo può aiutare a garantire che i dati siano puliti e non corrotti da input malformati.
+		- **La ripetibilità**:
+			- Ripetere la stessa procedura più volte per replicare gli stessi risultati e aumentare la fiducia nella correttezza dei risultati.
+		- **Verificare i vincoli impliciti**:
+			- Verificare come i sottogruppi di dati si relazionano tra loro e se queste relazioni sono coerenti con le aspettative del dominio di riferimento.
